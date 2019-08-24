@@ -1,8 +1,23 @@
+*{margin: 0; padding: 15px; box-sizing: border-box;}
 .header{
     background-color: #0BAF99;
-    padding: 20px;
+    padding-top: 20px;
     color: #ffffff;
+    width: 70%;
+    float: right;
 }
 .name{}
 .position{}
 .summary{}
+.sidebar{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.main{
+
+}
+.profile-picture img{
+    border-radius: 50%;
+    height: 240px;
+}
