@@ -1,10 +1,13 @@
-*{margin: 0; padding: 15px; box-sizing: border-box;}
+*{margin: 0; box-sizing: border-box;}
 .header{
     background-color: #0BAF99;
     padding-top: 20px;
     color: #ffffff;
     width: 70%;
     float: right;
+}
+body{
+    padding-top: 20px;
 }
 .name{}
 .position{}
@@ -14,10 +17,17 @@
     height: 100%;
     float: left;
 }
-.main{
-
-}
 .profile-picture img{
     border-radius: 50%;
-    height: 240px;
+    height: 200px;
 }
+.profile-picture {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-icons{
+    filter: invert(44%) sepia(30%) saturate(6061%) hue-rotate(146deg) brightness(104%) contrast(91%);
+    height: 30px;
+    padding-bottom: 5px;
+}
+.main{}
