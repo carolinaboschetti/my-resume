@@ -1,22 +1,33 @@
-  *{margin: 0; box-sizing: border-box;}
+  *{margin: 0; box-sizing: border-box; font-family: Lucida Sans, sans-serif}
 .header{
     background-color: #0BAF99;
     padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: #ffffff;
-    width: 70%;
+    width: 69%;
     float: right;
 }
 body{
     padding-top: 20px;
+    padding-right: 30px;
 }
-.name{}
-.position{}
-.summary{}
+.name{
+    padding-bottom: 10px;
+}
+.position{
+    color: #ffffff;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+.summary{
+    padding-bottom: 10px;
+}
 .sidebar{
-    width: 30%;
+    width: 29%;
     height: 100%;
     float: left;
-    padding-left: 10px;
 }
 .profile-picture img{
     border-radius: 50%;
@@ -28,25 +39,28 @@ body{
 }
 .text-and-icons{
     padding-left: 30px;
+    font-size: 16px;
+    padding-bottom: 10px;
 }
 .contact-icons{
-    height: 30px;
+    height: 35px;
     padding-bottom: 5px;
 }
-h2 {
-    padding-top: 18px;
+.skillsdiv{
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+h2{
+    padding-top: 10px;
+    padding-left: 20px;
     font-size: 24px;
     color: #0BAF99;
 }
-.skills{
-    background-color:#0BAF99;
-    color: #ffffff;
-    padding: 5px;
-    font-size: 18px;
-    border-radius: 5%;
-}
-.skillsp{
-    padding-bottom: 20px;
+h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    color: #0BAF99;
 }
 hr{
     border: none;
@@ -54,4 +68,53 @@ hr{
     overflow: visible;
     padding-bottom: 15px;
 }
-.main{}
+p {
+    font-size: 16px;
+}
+em {
+    font-size: 14px;
+    color: #0BAF99;
+}
+ul {
+    list-style-type: circle;
+}
+img, a {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+article {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.skills{
+    background-color:#0BAF99;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5%;
+    margin: 0 10px 10px 0;
+}
+.skillsp{
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main{
+    padding-top: 20px;
+    width: 69%;
+    float: right;
+}
+.position-fo {
+    font-size: 18px;
+    color: #0BAF99;
+}
+.company-name {
+    font-size: 20px;
+}
+.timeframe{
+    float: left;
+}
+.company-location{
+    float: right;
+    padding-right: 20px;
+}
